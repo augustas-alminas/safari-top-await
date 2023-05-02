@@ -1,4 +1,4 @@
-import { testObj } from "./asyncTest.js";
+import { testObj } from "async-test";
 
 try {
     console.log('setting test message')
