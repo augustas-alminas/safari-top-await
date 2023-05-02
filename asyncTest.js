@@ -7,7 +7,7 @@ function init() {
         setTimeout(() => {
             testObj.msg = 'post-await';
             res();
-        }, 500);
+        }, 1500);
     });
 }
 
