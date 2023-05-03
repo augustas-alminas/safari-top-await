@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="importmap">
-        {
-            "imports": {
-                "async-test": "./asyncTest.js"
-            }
-        }
-    </script>
     <title>Top Await Test</title>
 </head>
 <body>
     <div>
+        <a href="./index.html">swap import order</a> <span>current file2, file1</span>
+        <br>
         expected: <b>post-await</b>
         <br>
-        got-1: <b id="result"></b>
+        file1.js: <b id="result"></b>
         <br>
-        got-2: <b id="result2"></b>
+        file2.js: <b id="result2"></b>
 
     </div>
     <script src="./main2.js" type="module"></script>

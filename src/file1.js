@@ -1,7 +1,7 @@
-import { testObj } from "async-test";
+import { testObj } from "./topLevelAwait.js";
 
 try {
-    console.log('main.js test import')
+    console.log('file1: setting result')
     document.getElementById('result').innerText = testObj.msg;
 } catch (ex) {
     console.error(ex);
